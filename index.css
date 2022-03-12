@@ -1,0 +1,27 @@
+.header img{
+    height: 45vh;
+    width: 100vw;
+}
+.intro{
+    background-color: #053d4e;
+    display: inline-block;
+    
+}
+.bigsurprise{
+    background-color: #f04e23;
+}
+.options{
+    background-color: #58c5c7;
+}
+.myself{
+    background-color: #faa634;
+}
+.contents{
+    background-color: #67488f;
+}
+.bonus{
+    background-color: #67488f;
+}
+.feedback{
+    background-color: #053d4e;
+}
