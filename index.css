@@ -13,7 +13,7 @@
 }
 
 .header img{
-    height: 40vh;
+    height: 17em;
     width: 100%;
 }
 .intro{
@@ -21,11 +21,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 70vh;
+    height: 30em;
     width: 100%;
 }
 .leftintro{
-    width: 50vw;
+    width: 30em;
     margin-left: 130px;
 }
 .leftintro h2{
@@ -41,7 +41,7 @@
 }
 .bigsurprise{
     background-color: #f04e23;
-    height: 65vh;
+    height: 27em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
 }
 .options{
     background-color: #58c5c7;
-    height: 90vh;
+    height: 35em;
     width: 100%;
 }
 .options h2{
@@ -91,7 +91,7 @@
 }
 .myself{
     background-color: #faa634;
-    height: 90vh;
+    height: 37em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@
 }
 .contents{
     background-color: #714692;
-    height: 100vh;
+    height: 40em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@
 }
 .bonus{
     background-color: #714692;
-    height: 150vh;
+    height: 65em;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@
 }
 .feedback{
     background-color: #053d4e;
-    height: 90vh;
+    height: 37em;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -254,7 +254,7 @@
     border-radius: 10px;
 }
 .price{
-    height: 120vh;
+    height: 50em;
     width: 100%;
     display: flex;
     align-items: center;

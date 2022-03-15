@@ -1,10 +1,10 @@
 @media screen and (max-width: 1200px) {
-    .headerImg{
-        height: auto;
+    .header img{
+        height: 17em;
     }
     .intro{
         flex-direction: column;
-        height: 110vh;
+        height: 45em;
     }
     .leftintro{
         order: 2;
@@ -21,6 +21,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 25em;
     }
     .carImg,
     .carP{
@@ -34,7 +35,7 @@
         width: 30rem;
     }
     .options{
-        height: 180vh;
+        height: 75em;
     }
     .optionsrow{
         display: flex;
@@ -48,6 +49,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 37em;
     }
     .myselfImg,
     .description{
@@ -60,16 +62,19 @@
     .description{
         text-shadow: 1px 1px black;
     }
+    .contents{
+        height: 38em;
+    }
     .boxImg{
         display: none;
+    }
+    .bonus{
+        height: 115em;
     }
     .bonus h2{
         font-size: 3em;
         padding-right: auto;
         padding-left: auto;
-    }
-    .bonus{
-        height: 275vh;
     }
     .bonuslist{
         display: flex;
@@ -81,7 +86,7 @@
         padding-bottom: 30px;
     }
     .feedback{
-        height: 230vh;
+        height: 95em;
     }
     .feedbackrow h2{
         font-size: 2.5em;
@@ -96,12 +101,12 @@
         margin-bottom: 30px;
     }
     .footer img{
-        height: 12rem;
+        height: 12em;
     }
 }
 @media screen and (max-width: 930px){
     .price{
-        height: 100vh;
+        height: 40em;
     }
     .price h2{
         font-size: 90px;
