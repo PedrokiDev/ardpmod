@@ -235,11 +235,11 @@
     flex-direction: column;
     align-items: center;
 }
-.feedbackcolumn{
+.feedbackrow{
     display: flex;
     flex-direction: column;
 }
-.feedbackcolumn h2{
+.feedbackrow h2{
     font-size: 50px;
     font-family: 'League Gothic', sans-serif;
     padding: 30px;

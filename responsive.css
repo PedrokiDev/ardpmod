@@ -1,0 +1,122 @@
+@media screen and (max-width: 1200px) {
+    .headerImg{
+        height: auto;
+    }
+    .intro{
+        flex-direction: column;
+        height: 110vh;
+    }
+    .leftintro{
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .rightintro{
+        order: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bigsurprise{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carImg,
+    .carP{
+        position: absolute;
+        text-align: center;
+    }
+    .carImg{
+        opacity: 0.2;
+    }
+    .carP{
+        width: 30rem;
+    }
+    .options{
+        height: 180vh;
+    }
+    .optionsrow{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .optionscourse{
+        margin-bottom: 10px;
+    }
+    .myself{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .myselfImg,
+    .description{
+        position: absolute;
+        text-align: center;
+    }
+    .myselfImg{
+        opacity: 0.3;
+    }
+    .description{
+        text-shadow: 1px 1px black;
+    }
+    .boxImg{
+        display: none;
+    }
+    .bonus h2{
+        font-size: 3em;
+        padding-right: auto;
+        padding-left: auto;
+    }
+    .bonus{
+        height: 275vh;
+    }
+    .bonuslist{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bonus1,
+    .bonus2{
+        padding-bottom: 30px;
+    }
+    .feedback{
+        height: 230vh;
+    }
+    .feedbackrow h2{
+        font-size: 2.5em;
+    }
+    .videofeedback{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .videofeedback iframe{
+        margin-bottom: 30px;
+    }
+    .footer img{
+        height: 12rem;
+    }
+}
+@media screen and (max-width: 930px){
+    .price{
+        height: 100vh;
+    }
+    .price h2{
+        font-size: 90px;
+    }
+    .price h3{
+        font-size: 30px;
+    }
+    .price img{
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .leftcontents{
+        text-align: right;
+    }
+}
+
