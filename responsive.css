@@ -120,8 +120,60 @@
 }
 
 @media screen and (max-width: 830px){
+    .videoIntro{
+        width: inherit;
+    }
     .leftcontents{
         text-align: right;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header img,
+    .intro,
+    .bigsurprise,
+    .options,
+    .myself,
+    .myself img,
+    .contents,
+    .bonus,
+    .feedback,
+    .price,
+    .footer img{
+        width: 34em;
+    }
+    .videoIntro{
+        width: inherit;
+    }
+    .options{
+        height: 82em;
+    }
+    .description{
+        height: inherit;
+        width: inherit;
+    }
+    .description h2{
+        font-size: 2.3em;
+        margin-top: 0.5em;
+    }
+    .description h3{
+        font-size: 1.5em;
+        margin: 0 0.5em;
+    }
+    .description p{
+        font-size: 1.6em;
+    }
+    .contents{
+        height: 42em;
+    }
+    .bonus{
+        height: 120em;
+    }
+    .price{
+        height: 47em;
+    }
+    .price img{
+        width: 30em;
     }
 }
 
